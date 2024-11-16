@@ -1,4 +1,4 @@
-export const canvasPrompt = `${require('./prompts/canvasPrompt.md')}`;
+export const canvasPrompt = `${require('../prompts/canvasPrompt.md')}`;
 
 
 export const regularPrompt =
