@@ -1,4 +1,10 @@
-export const canvasPrompt = `${require('../prompts/canvasPrompt.md')}`;
+import { readFileSync } from 'fs';
+import { join } from 'path';
+
+export const canvasPrompt = readFileSync(
+  join(__dirname, '../prompts/canvasPrompt.md'),
+  'utf-8'
+);
 
 
 export const regularPrompt =
